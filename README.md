@@ -14,10 +14,11 @@ The Employee Management System is a backend project built using Node.js, Express
 * CRUD Operations
 The Employee Management System allows users to perform the following CRUD operations on employee records:
 
-Create: Users can add new employees to the database with relevant details such as name, email, job title, and department.
-Read: Employees' information can be retrieved from the database based on their ID, name, department, or other relevant criteria.
-Update: Users can modify the existing employee information, such as updating their job title or department.
-Delete: Employees can be removed from the database by their ID or other criteria.
+* Create: Users can add new employees to the database with relevant details such as name, email, job title, and department.
+* Read: Employees' information can be retrieved from the database based on their ID, name, department, or other relevant criteria.
+* Update: Users can modify the existing employee information, such as updating their job title or department.
+* Delete: Employees can be removed from the database by their ID or other criteria.
+  
 * Authentication Middleware
 To secure the API endpoints, the application implements authentication middleware. Users are required to provide valid credentials (e.g., username and password) or access tokens to access protected routes.
 
@@ -43,8 +44,8 @@ To run the Employee Management System, follow these steps:
 # API Endpoints
 The following API endpoints are available in the Employee Management System:
 
-GET /api/employees: Get a list of all employees.
-GET /api/employees/:id: Get an employee by their ID.
-POST /api/employees: Create a new employee record.
-PUT /api/employees/:id: Update an employee's information by their ID.
-DELETE /api/employees/:id: Delete an employee by their ID
+* GET /api/employees: Get a list of all employees.
+* GET /api/employees/:id: Get an employee by their ID.
+* POST /api/employees: Create a new employee record.
+* PUT /api/employees/:id: Update an employee's information by their ID.
+* DELETE /api/employees/:id: Delete an employee by their ID
